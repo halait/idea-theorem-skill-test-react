@@ -1,0 +1,54 @@
+.container {
+    max-width: 32rem;
+    margin: 8rem  auto 0;
+    font-weight: 700; /* Everything in Figma is bold */
+}
+.header {
+    font-size: 1.25rem;
+    margin: 1.2rem;
+}
+.shadowBox {
+    padding: 2.5rem;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+}
+.label {
+    margin: 1rem 0 0.8rem;
+    display: block;
+}
+.buttonContainer {
+    margin-top: 3rem;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+}
+.alert {
+    position: absolute;
+    top: 25%;
+    right: 10%;
+    padding: 1.5rem 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+/* Use before pseudo-element to show checkmark or X */
+.alert::before {
+    content: " ";
+    display: inline-block;
+    background-size: cover;
+    height: 1.6rem;
+    width: 1.6rem;
+    flex-shrink: 0;
+}
+.alertError {
+    background-color: #FFC0C0;
+}
+.alertError::before {
+    background-image: url('../assets/x_circle.svg');
+}
+.alertSuccess {
+    background-color: #CDFADC;
+}
+.alertSuccess::before {
+    background-image: url('../assets/check_circle.svg');
+}
