@@ -1,15 +1,11 @@
 .container {
     max-width: 32rem;
-    margin: 8rem  auto 0;
+    margin: 2rem auto;
     font-weight: 700; /* Everything in Figma is bold */
+    padding: 1rem;
 }
 .header {
     font-size: 1.25rem;
-    margin: 1.2rem;
-}
-.shadowBox {
-    padding: 2.5rem;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
 }
 .label {
     margin: 1rem 0 0.8rem;
@@ -23,8 +19,6 @@
 }
 .alert {
     position: absolute;
-    top: 25%;
-    right: 10%;
     padding: 1.5rem 2rem;
     font-size: 1.2rem;
     display: flex;
@@ -51,4 +45,20 @@
 }
 .alertSuccess::before {
     background-image: url('../assets/check_circle.svg');
+}
+@media screen and (min-width: 56rem) {
+    .container {
+        margin: 8rem auto;
+    }
+    .shadowBox {
+        padding: 2.5rem;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
+    }
+    .header {
+        margin: 1.4rem 0;
+    }
+    .alert {
+        top: 25%;
+        right: 10%;
+    }
 }

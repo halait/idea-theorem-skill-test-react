@@ -7,5 +7,10 @@
   margin: 0 auto;
 }
 #app-header-logo {
-  height: 32px;
+  height: 24px;
+}
+@media screen and (min-width: 56rem) {
+  #app-header-logo {
+    height: 32px;
+  }
 }
