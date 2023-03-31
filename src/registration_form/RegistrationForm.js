@@ -37,6 +37,8 @@ export default function RegistrationForm() {
     text: ''
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -94,11 +96,12 @@ export default function RegistrationForm() {
     if (nextError.name.error || nextError.email.error || nextError.password.error) {
       return;
     }
-
+    setIsSubmitting(true);
     const response = await fetch(
       "https://fullstack-test-navy.vercel.app/api/users/create",
       new FormData(event.currentTarget)
     );
+    setIsSubmitting(false);
     if (response.status === 200) {
       setAlert({
         show: true,
@@ -188,7 +191,13 @@ export default function RegistrationForm() {
             </div>
             <div className={styles.buttonContainer}>
               <button type="button">Cancel</button>
-              <button className="accent-button" type="submit">Submit</button>
+              <button 
+                className="accent-button" 
+                type="submit"
+                disabled={isSubmitting}
+              >
+                Submit
+              </button>
             </div>
           </form>
         </ThemeProvider>

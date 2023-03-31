@@ -5,7 +5,8 @@ html {
   --background-primary: #FFFFFF;
   --header-background: #252F3D;
   --accent-color: #4790A1;
-  --accent-secondary-color: #127C95;
+  --accent-button-color: #127C95;
+  --accent-disabled-button-color: #057;
 }
 
 body {
@@ -28,7 +29,12 @@ button {
 }
 
 .accent-button {
-  background-color: var(--accent-secondary-color);
+  background-color: var(--accent-button-color);
   color: var(--background-primary);
-  border: 1px solid var(--accent-secondary-color);
+  border: 1px solid var(--accent-button-color);
+}
+
+.accent-button:disabled {
+  background-color: var(--accent-disabled-button-color);
+  cursor: not-allowed;
 }
