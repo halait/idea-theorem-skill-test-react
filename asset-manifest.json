@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/idea-theorem-skill-test-react/static/css/main.3419e8fa.css",
+    "main.js": "/idea-theorem-skill-test-react/static/js/main.df7e8a57.js",
+    "static/js/787.ff00a61f.chunk.js": "/idea-theorem-skill-test-react/static/js/787.ff00a61f.chunk.js",
+    "index.html": "/idea-theorem-skill-test-react/index.html",
+    "static/media/check_circle.svg": "/idea-theorem-skill-test-react/static/media/check_circle.3e5b07b03a26396d0db6.svg",
+    "static/media/x_circle.svg": "/idea-theorem-skill-test-react/static/media/x_circle.5d354ac9d9dacbdab315.svg",
+    "main.3419e8fa.css.map": "/idea-theorem-skill-test-react/static/css/main.3419e8fa.css.map",
+    "main.df7e8a57.js.map": "/idea-theorem-skill-test-react/static/js/main.df7e8a57.js.map",
+    "787.ff00a61f.chunk.js.map": "/idea-theorem-skill-test-react/static/js/787.ff00a61f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3419e8fa.css",
+    "static/js/main.df7e8a57.js"
+  ]
+}
