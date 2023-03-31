@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/idea-theorem-skill-test-react/static/css/main.f02d4d88.css",
+    "main.css": "/idea-theorem-skill-test-react/static/css/main.6a46c538.css",
     "main.js": "/idea-theorem-skill-test-react/static/js/main.49e361f7.js",
     "static/js/787.ff00a61f.chunk.js": "/idea-theorem-skill-test-react/static/js/787.ff00a61f.chunk.js",
     "index.html": "/idea-theorem-skill-test-react/index.html",
     "static/media/check_circle.svg": "/idea-theorem-skill-test-react/static/media/check_circle.3e5b07b03a26396d0db6.svg",
     "static/media/x_circle.svg": "/idea-theorem-skill-test-react/static/media/x_circle.5d354ac9d9dacbdab315.svg",
-    "main.f02d4d88.css.map": "/idea-theorem-skill-test-react/static/css/main.f02d4d88.css.map",
+    "main.6a46c538.css.map": "/idea-theorem-skill-test-react/static/css/main.6a46c538.css.map",
     "main.49e361f7.js.map": "/idea-theorem-skill-test-react/static/js/main.49e361f7.js.map",
     "787.ff00a61f.chunk.js.map": "/idea-theorem-skill-test-react/static/js/787.ff00a61f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f02d4d88.css",
+    "static/css/main.6a46c538.css",
     "static/js/main.49e361f7.js"
   ]
 }
